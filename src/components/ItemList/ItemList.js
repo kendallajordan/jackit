@@ -10,7 +10,7 @@ import JackIt from '../Jackit/Jackit.js';
 export default function ItemList()  {
     const addRow = async e => {
         var newEntry = [
-            { itemEntry: "HELLO WORLD", value: 0 }];
+            { itemEntry: "HELLO WORLD@@@!", value: 0 }];
         var data = rows;
         data.push(newEntry);
         setRows([...data]);
