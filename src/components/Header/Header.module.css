@@ -1,0 +1,45 @@
+.container {
+    /* Display & Box Model */
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 100px 0 100px 0;
+    /* Background and Font */
+    background-color: #aaf0d1;
+    color: #371300;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    border: 5px dashed white;
+    padding: 20px;
+    font-size: 50pt;
+    font-weight: 900;
+}
+
+.slogan {
+    padding: 50px 0 20px 0;
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+.about {
+    width: 60%;
+    font-size: 13pt;
+    font-weight: 400;
+}
+
+.about div {
+    padding: 0 0 15px 0;
+}
+
+.bold {
+    font-weight: bold;
+}

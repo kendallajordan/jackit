@@ -1,0 +1,41 @@
+.container {
+    /* Display & Box Model */
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 100px 0 100px 0;
+    /* Background and Font */
+    background-color: #ffc2f5;
+    color: #461900;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.header {
+    padding: 0 0 20px 0;
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+.listContainer {
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.button {
+
+}
+
+.totalBias {
+    
+}
