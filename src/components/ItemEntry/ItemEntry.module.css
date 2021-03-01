@@ -1,0 +1,42 @@
+.container {
+    /* Display & Box Model */
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    /* Background and Font */
+    background-color: #ffc2f5;
+    color: #461900;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.container input {
+    margin-right: 10px;
+}
+
+.close {
+    /* Display & Box Model */
+    padding: 5px;
+    /* Background & Font */
+    color: #461900;
+    font-size: 15pt;
+    font-weight: 600;
+    line-height: 15pt;
+    /* Other */
+    content: 'x';
+}
+
+.pageLink {
+    cursor: pointer;
+}
